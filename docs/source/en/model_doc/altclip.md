@@ -25,8 +25,8 @@ rendered properly in your Markdown viewer.
 
 You can find all the original AltCLIP checkpoints under the [AltCLIP](https://huggingface.co/collections/BAAI/alt-clip-diffusion-66987a97de8525205f1221bf) collection.
 
-> [!TIP] Click on the AltCLIP models in the right sidebar for more examples of how to apply AltCLIP to different tasks.
-> 
+> [!TIP]
+> Click on the AltCLIP models in the right sidebar for more examples of how to apply AltCLIP to different tasks.
 
 The examples below demonstrates how to calculate similarity scores between an image and one or more captions with the [`AutoModel`] class.
 
