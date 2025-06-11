@@ -55,7 +55,7 @@ for label, prob in zip(labels, probs[0]):
     print(f"{label}: {prob.item():.4f}")
 ```
 
-</hfoption>
+</hfoptions>
 
 Quantization reduces the memory burden of large models by representing the weights in a lower precision. Refer to the [Quantization](../quantization/overview) overview for more available quantization backends.
 
