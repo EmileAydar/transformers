@@ -14,10 +14,8 @@ rendered properly in your Markdown viewer.
 
 -->
 
-<div style="float: right;">
-  <div class="flex flex-wrap space-x-1">
-    <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-DE3412?style=flat&logo=pytorch&logoColor=white">
-</div>
+> [!TIP]
+> Click on the AltCLIP models in the right sidebar for more examples of how to apply AltCLIP to different tasks.
 
 # AltCLIP
 
@@ -32,6 +30,7 @@ You can find all the original AltCLIP checkpoints under the [AltCLIP](https://hu
 The examples below demonstrates how to calculate similarity scores between an image and one or more captions with the [`AutoModel`] class.
 
 <hfoptions id="usage">
+  <hfoption id="python" label="Python">
 
 ```python
 import torch
@@ -55,7 +54,7 @@ labels = ["a photo of a cat", "a photo of a dog"]
 for label, prob in zip(labels, probs[0]):
     print(f"{label}: {prob.item():.4f}")
 ```
-
+  </hfoption>
 </hfoptions>
 
 Quantization reduces the memory burden of large models by representing the weights in a lower precision. Refer to the [Quantization](../quantization/overview) overview for more available quantization backends.
