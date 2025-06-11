@@ -24,7 +24,6 @@ rendered properly in your Markdown viewer.
 [AltCLIP](https://huggingface.co/papers/2211.06679v2) replaces the [CLIP](./clip) text encoder with a multilingual XLM-R encoder and aligns image and text representations with teacher learning and contrastive learning.
 
 You can find all the original AltCLIP checkpoints under the [AltClip](https://huggingface.co/collections/BAAI/alt-clip-diffusion-66987a97de8525205f1221bf) collection.
-
 > [!TIP]
 > Click on the AltCLIP models in the right sidebar for more examples of how to apply AltCLIP to different tasks.
 
@@ -96,23 +95,25 @@ for label, prob in zip(labels, probs[0]):
 - Use [`CLIPImageProcessor`] to resize (or rescale) and normalize images for the model.
 - [`AltCLIPProcessor`] combines [`CLIPImageProcessor`] and [`XLMRobertaTokenizer`] into a single instance to encode text and prepare images.
 
-## AltCLIPConfig
+## API
+
+### AltCLIPConfig
 [[autodoc]] AltCLIPConfig
 
-## AltCLIPTextConfig
+### AltCLIPTextConfig
 [[autodoc]] AltCLIPTextConfig
 
-## AltCLIPVisionConfig
+### AltCLIPVisionConfig
 [[autodoc]] AltCLIPVisionConfig
 
-## AltCLIPModel
+### AltCLIPModel
 [[autodoc]] AltCLIPModel
 
-## AltCLIPTextModel
+### AltCLIPTextModel
 [[autodoc]] AltCLIPTextModel
 
-## AltCLIPVisionModel
+### AltCLIPVisionModel
 [[autodoc]] AltCLIPVisionModel
 
-## AltCLIPProcessor
+### AltCLIPProcessor
 [[autodoc]] AltCLIPProcessor
