@@ -31,7 +31,6 @@ You can find all the original AltCLIP checkpoints under the [AltClip](https://hu
 The examples below demonstrates how to calculate similarity scores between an image and one or more captions with the [`AutoModel`] class.
 
 <hfoptions id="usage">
-<hfoption id="AutoModel">
 
 ```python
 import torch
@@ -57,7 +56,6 @@ for label, prob in zip(labels, probs[0]):
 ```
 
 </hfoption>
-</hfoptions>
 
 Quantization reduces the memory burden of large models by representing the weights in a lower precision. Refer to the [Quantization](../quantization/overview) overview for more available quantization backends.
 
